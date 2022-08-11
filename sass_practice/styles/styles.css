@@ -1,0 +1,32 @@
+footer, nav {
+  background-color: pink;
+}
+footer p, nav p {
+  background-color: yellow;
+  height: 400px/2;
+}
+footer p:hover, nav p:hover {
+  background-color: chartreuse;
+}
+footer a:link, nav a:link {
+  color: beige;
+}
+footer a:visited, nav a:visited {
+  color: orange;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+p {
+  background-color: blue;
+}
+
+h1 {
+  background-color: green;
+}
+
+nav p {
+  height: 100px;
+}/*# sourceMappingURL=styles.css.map */

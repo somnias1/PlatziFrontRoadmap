@@ -1,0 +1,19 @@
+footer{
+    background-color: pink;
+    p{
+        background-color: yellow;
+        height: 400px / 2;
+
+        &:hover{
+            background-color: chartreuse;
+        }
+    }
+    a{
+        &:link{
+            color: $footer_color;
+        }
+        &:visited{
+            color: orange;
+        }
+    }
+}
